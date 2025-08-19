@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="math.css"/>
+    <title>Signup for ThinkMath</title>
+</head>
+<body>
+    <div class="sign-in">
+        <form class="form1" style="height:65vh">
+            <h2 class="welcome-heading">Sign up</h2>
+            <p class="welcome-subtext">Sign up to continue</p>
+            <label>Name</label><br>
+            <input type="text" id="name" required><br><br>
+            <label>Email</label><br>
+            <input type="email" id="email" required><br><br>
+            <label>Password</label><br>
+            <input type="password" id="password" required><br><br>
+            <label>Confirm Password</label><br>
+            <input type="password" id="confirm-password" required><br><br>
+            <button id="create">Sign up &#8594</button>
+            <p class="sign-up1">Already have an account?<a href="login.html">Sign in!</a></p>
+        </form>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+            <span class="close">&times;</span>
+            <p class="password-mismatch">Passwords do not match or email is invalid</p>
+            </div>
+        </div> 
+    </div>
+    <script src="signup.js"></script>
+</body>
+</html>

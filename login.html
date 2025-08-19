@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="math.css"/>
+    <title>Login to ThinkMath</title>
+</head>
+<body>
+    <div class="login-form">
+        <form class="form">
+            <h2 class="welcome-heading">WELCOME BACK TO <span>ThinkMath</span></h2>
+            <p class="welcome-subtext">Please enter your details to continue.</p><br>
+            <label>Email</label><br>
+            <input type="email" id="login-email" required><br><br>
+            <label>Password</label><br>
+            <input type="password" id="login-password"size="30" required><br>
+            <button id="log-in">Log in &#8594</button>
+            <p class="sign-up">Don't have an account?<a href="index.html">Sign up for free!</a></p>
+        </form>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+            <span class="close">&times;</span>
+            <p class="password-mismatch">Invalid email or Password should have special characters</p>
+            </div>
+        </div> 
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>

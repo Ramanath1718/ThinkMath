@@ -1,0 +1,317 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="home.css"/>
+    <title>Welcome to ThinkMath</title>
+</head>
+    <body>
+        <div class="home" id="homes">
+            <header>
+                <div class="logo"><img src="ThinkMath.png"></div>
+                <nav>
+                    <a href="#homes">Home</a>
+                    <a href="#quizes">Quiz</a>
+                    <a href="#formulas">Formulas</a>
+                    <a href="#abouts">About</a>
+                </nav>
+            </header>
+
+            <section class="welcome">
+                <h1 class="welcome-heading">Welcome to ThinkMath!</h1>
+                <p class="welcome-journey">Your journey to math mastery begins here ✨</p>
+            </section>
+        </div>
+        <section id="quizes">
+            <div class="quiz-section">
+            <h1>Quiz</h1>
+            <div class="quiz">
+                <img src="quiz.png" alt="Math Icon" class="hero-img-left-img">
+    
+                <div class="hero-content">
+                    <h1>Master Math with Fun & Logic</h1>
+                    <p>Choose your favorite topic and test your brainpower!</p>
+                    <button class="quiz-btn"><a href="#" class="hero-btn">Start Quiz &#8594</a></button>
+                </div>
+            </div>
+        </div>
+        </section>
+        <div class="formula" id="formulas">
+            <h1 class="formula-heading">Formulas</h1>
+            <div class="container">
+                <div class="card left">
+                    <h2>Algebra</h2>
+                    <ul>
+                        <li>Quadratic Formula</li>
+                        <li>Factorization</li>
+                        <li>Binomial Theorem</li>
+                    </ul>
+                    <button  class="view">View</button>
+                    </div>
+
+                    <div class="card left">
+                    <h2>Geometry</h2>
+                    <ul>
+                        <li>Circle, Triangle, Rectangle</li>
+                        <li>Area & Perimeter</li>
+                        <li>Angle Sum Rules</li>
+                    </ul>
+                    <button  class="view">View</button>
+                    </div>
+
+                    <div class="card right">
+                    <h2>Trigonometry</h2>
+                    <ul>
+                        <li>Sin, Cos, Tan</li>
+                        <li>Identities</li>
+                        <li>Angle Formulas</li>
+                    </ul>
+                    <button class="view">View</button>
+                    </div>
+
+                    <div class="card right">
+                    <h2>Arithmetic</h2>
+                    <ul>
+                        <li>Percentage</li>
+                        <li>SI & CI</li>
+                        <li>Average</li>
+                    </ul>
+                    <button class="view">View</button>
+                    </div>
+
+                    <div class="card left">
+                    <h2>Calculus</h2>
+                    <ul>
+                        <li>Derivatives</li>
+                        <li>Integration</li>
+                        <li>Limits</li>
+                    </ul>
+                    <button class="view">View</button>
+                    </div>
+
+                    <div class="card left">
+                    <h2>Statistics</h2>
+                    <ul>
+                        <li>Mean, Median</li>
+                        <li>Probability</li>
+                        <li>Standard Deviation</li>
+                    </ul>
+                    <button class="view">View</button>
+                    </div>
+
+                    <div class="card right">
+                    <h2>Coordinate Geometry</h2>
+                    <ul>
+                        <li>Distance Formula</li>
+                        <li>Midpoint</li>
+                        <li>Slope</li>
+                    </ul>
+                    <button class="view">View</button>
+                    </div>
+
+                    <div class="card right">
+                    <h2>Mensuration</h2>
+                    <ul>
+                        <li>Area & Volume</li>
+                        <li>Cube & Cylinder</li>
+                        <li>Sphere & Cone</li>
+                    </ul>
+                    <button class="view">View</button>
+                    </div>
+            </div>
+        </div>
+        <div class="about-section" id="abouts">
+            <h1 class="about-heading">About ThinkMath</h1>
+            <div class="about-content">
+                <img src="about-sec.jpg" alt="Math Team" class="about-img left">
+                <div class="about-text right">
+                <p>
+                    ThinkMath is designed to help students learn and master math topics through engaging quizzes,
+                    well-organized formulas, and interactive practice. Whether you're brushing up on algebra or diving
+                    into geometry, ThinkMath offers a structured and enjoyable experience.
+                </p>
+                <p>
+                    Our mission is to make learning math fun, accessible, and effective for everyone—one formula and
+                    one quiz at a time.
+                </p>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-content">
+                <h2>ThinkMath</h2>
+                <p>© 2025 ThinkMath | All Rights Reserved</p>
+                <p>Designed with ❤️ for math lovers</p>
+            </div>
+        </div>
+
+        <script src="signup.js"></script>
+        <script src="home.js"></script>
+        <script src="formula.js"></script>
+    </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="home.css"/>
+    <title>Welcome to ThinkMath</title>
+</head>
+<body>
+    <div class="home" id="homes">
+        <header>
+            <div class="logo"><img src="ThinkMath.png" alt="ThinkMath Logo"></div>
+            <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+            <nav id="navbar">
+                <a href="#homes">Home</a>
+                <a href="#quizes">Quiz</a>
+                <a href="#formulas">Formulas</a>
+                <a href="#abouts">About</a>
+            </nav>
+        </header>
+
+        <section class="welcome">
+            <h1 class="welcome-heading">Welcome to ThinkMath!</h1>
+            <p class="welcome-journey">Your journey to math mastery begins here ✨</p>
+        </section>
+    </div>
+
+    <section id="quizes">
+        <div class="quiz-section">
+            <h1>Quiz</h1>
+            <div class="quiz">
+                <img src="quiz.png" alt="Math Icon" class="hero-img-left-img">
+                <div class="hero-content">
+                    <h1>Master Math with Fun & Logic</h1>
+                    <p>Choose your favorite topic and test your brainpower!</p>
+                    <button class="quiz-btn"><a href="#" class="hero-btn">Start Quiz &#8594</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="formula" id="formulas">
+        <h1 class="formula-heading">Formulas</h1>
+        <div class="container">
+            <div class="card left">
+                <h2>Algebra</h2>
+                <ul>
+                    <li>Quadratic Formula</li>
+                    <li>Factorization</li>
+                    <li>Binomial Theorem</li>
+                </ul>
+                <button class="view">View</button>
+            </div>
+
+            <div class="card left">
+                <h2>Geometry</h2>
+                <ul>
+                    <li>Circle, Triangle, Rectangle</li>
+                    <li>Area & Perimeter</li>
+                    <li>Angle Sum Rules</li>
+                </ul>
+                <button class="view">View</button>
+            </div>
+
+            <div class="card right">
+                <h2>Trigonometry</h2>
+                <ul>
+                    <li>Sin, Cos, Tan</li>
+                    <li>Identities</li>
+                    <li>Angle Formulas</li>
+                </ul>
+                <button class="view">View</button>
+            </div>
+
+            <div class="card right">
+                <h2>Arithmetic</h2>
+                <ul>
+                    <li>Percentage</li>
+                    <li>SI & CI</li>
+                    <li>Average</li>
+                </ul>
+                <button class="view">View</button>
+            </div>
+
+            <div class="card left">
+                <h2>Calculus</h2>
+                <ul>
+                    <li>Derivatives</li>
+                    <li>Integration</li>
+                    <li>Limits</li>
+                </ul>
+                <button class="view">View</button>
+            </div>
+
+            <div class="card left">
+                <h2>Statistics</h2>
+                <ul>
+                    <li>Mean, Median</li>
+                    <li>Probability</li>
+                    <li>Standard Deviation</li>
+                </ul>
+                <button class="view">View</button>
+            </div>
+
+            <div class="card right">
+                <h2>Coordinate Geometry</h2>
+                <ul>
+                    <li>Distance Formula</li>
+                    <li>Midpoint</li>
+                    <li>Slope</li>
+                </ul>
+                <button class="view">View</button>
+            </div>
+
+            <div class="card right">
+                <h2>Mensuration</h2>
+                <ul>
+                    <li>Area & Volume</li>
+                    <li>Cube & Cylinder</li>
+                    <li>Sphere & Cone</li>
+                </ul>
+                <button class="view">View</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="about-section" id="abouts">
+        <h1 class="about-heading">About ThinkMath</h1>
+        <div class="about-content">
+            <img src="about-sec.jpg" alt="Math Team" class="about-img left">
+            <div class="about-text right">
+                <p>
+                    ThinkMath is designed to help students learn and master math topics through engaging quizzes,
+                    well-organized formulas, and interactive practice. Whether you're brushing up on algebra or diving
+                    into geometry, ThinkMath offers a structured and enjoyable experience.
+                </p>
+                <p>
+                    Our mission is to make learning math fun, accessible, and effective for everyone—one formula and
+                    one quiz at a time.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-content">
+            <h2>ThinkMath</h2>
+            <p>© 2025 ThinkMath | All Rights Reserved</p>
+            <p>Designed with ❤️ for math lovers</p>
+        </div>
+    </div>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById("navbar").classList.toggle("active");
+        }
+    </script>
+
+    <script src="signup.js"></script>
+    <script src="home.js"></script>
+    <script src="formula.js"></script>
+</body>
+</html>
