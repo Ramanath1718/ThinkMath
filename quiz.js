@@ -1,154 +1,142 @@
 const quizData = [
+  // Algebra
   {
-    question: "What is the value of x in 2x + 5 = 15?",
-    options: ["10", "5", "7", "8"],
-    answer: "5"
+    question: "Solve: 3x - 7 = 11",
+    options: ["4", "6", "5", "7"],
+    answer: "6"
   },
   {
-    question: "Expand (a + b)^2",
-    options: [
-      "a^2 + b^2",
-      "a^2 + 2ab + b^2",
-      "2a^2 + b^2",
-      "a^2 - 2ab + b^2"
-    ],
-    answer: "a^2 + 2ab + b^2"
+    question: "If x + y = 10 and x - y = 2, find x.",
+    options: ["4", "6", "5", "7"],
+    answer: "6"
   },
   {
-    question: "Which one is a factorization identity?",
-    options: [
-      "(a + b)^2 = a^2 + 2ab + b^2",
-      "a + b = c",
-      "ab = c^2",
-      "a^2 = b + c"
-    ],
-    answer: "(a + b)^2 = a^2 + 2ab + b^2"
+    question: "Find the 5th term of the AP: 2, 5, 8, ...",
+    options: ["14", "15", "16", "17"],
+    answer: "14"
   },
 
   // Geometry
   {
-    question: "Sum of all angles in a triangle?",
-    options: ["180°", "360°", "90°", "270°"],
-    answer: "180°"
+    question: "A right triangle has sides 3 cm, 4 cm. Find the hypotenuse.",
+    options: ["5", "6", "7", "4"],
+    answer: "5"
   },
   {
-    question: "What is a triangle with all sides equal?",
-    options: ["Scalene", "Isosceles", "Right-angled", "Equilateral"],
-    answer: "Equilateral"
+    question: "Area of a circle with radius 7 cm?",
+    options: ["154", "144", "150", "160"],
+    answer: "154"
   },
   {
-    question: "How many degrees are there in a right angle?",
-    options: ["45°", "90°", "180°", "60°"],
-    answer: "90°"
-  },
-
-  // Mensuration
-  {
-    question: "Area of a rectangle is given by?",
-    options: ["l × b", "2l + 2b", "l + b", "l / b"],
-    answer: "l × b"
-  },
-  {
-    question: "Volume of a cube (side = 3 cm)?",
-    options: ["9 cm³", "27 cm³", "18 cm³", "36 cm³"],
-    answer: "27 cm³"
-  },
-  {
-    question: "Area of a circle formula?",
-    options: ["πr²", "2πr", "πd", "r²"],
-    answer: "πr²"
+    question: "Perimeter of a rectangle with length 10 and breadth 5?",
+    options: ["30", "40", "25", "35"],
+    answer: "30"
   },
 
   // Trigonometry
   {
-    question: "sin(90°) = ?",
-    options: ["1", "0", "√3", "1/2"],
+    question: "If sin θ = 1/2, then θ = ? (0°-90°)",
+    options: ["30°", "45°", "60°", "90°"],
+    answer: "30°"
+  },
+  {
+    question: "tan 45° = ?",
+    options: ["1", "0", "√3", "Undefined"],
     answer: "1"
   },
   {
-    question: "cos(0°) = ?",
-    options: ["0", "1", "-1", "Undefined"],
-    answer: "1"
-  },
-  {
-    question: "tan(45°) = ?",
-    options: ["1", "0", "∞", "√3"],
-    answer: "1"
+    question: "cos 60° = ?",
+    options: ["1/2", "√3/2", "0", "1"],
+    answer: "1/2"
   },
 
-  // Speed, Time & Distance
+  // Speed & Distance
   {
-    question: "Speed = 60 km/h, Time = 2 h. Distance = ?",
-    options: ["120 km", "100 km", "90 km", "60 km"],
-    answer: "120 km"
+    question: "A car travels 120 km in 2 hours. Average speed?",
+    options: ["60 km/h", "50 km/h", "70 km/h", "80 km/h"],
+    answer: "60 km/h"
   },
   {
-    question: "If distance = 180 km and speed = 90 km/h, time = ?",
-    options: ["1 h", "2 h", "3 h", "4 h"],
-    answer: "2 h"
+    question: "If a train covers 150 km in 3 hours, speed = ?",
+    options: ["50 km/h", "45 km/h", "60 km/h", "55 km/h"],
+    answer: "50 km/h"
   },
   {
-    question: "Time = Distance ÷ ?",
-    options: ["Speed", "Time", "Distance", "None"],
-    answer: "Speed"
+    question: "A boat moves 10 km downstream in 2 hours. Find speed downstream.",
+    options: ["5 km/h", "6 km/h", "4 km/h", "8 km/h"],
+    answer: "5 km/h"
   },
 
-  // Averages & Percentages
+  // Time & Work
   {
-    question: "Average of 10, 20, and 30?",
-    options: ["20", "25", "30", "15"],
-    answer: "20"
+    question: "A can do a work in 12 days, B in 16 days. Time together?",
+    options: ["6.86 days", "7 days", "8 days", "6 days"],
+    answer: "6.86 days"
   },
   {
-    question: "What is 25% of 200?",
-    options: ["50", "40", "60", "30"],
-    answer: "50"
+    question: "Work = Efficiency × Time. If efficiency doubles, time = ?",
+    options: ["Half", "Double", "Same", "Cannot say"],
+    answer: "Half"
   },
   {
-    question: "What is 10% of 450?",
-    options: ["40", "45", "50", "35"],
-    answer: "45"
+    question: "Pipe fills 1 tank in 6 hours. Two such pipes working together?",
+    options: ["3 hours", "6 hours", "4 hours", "2 hours"],
+    answer: "3 hours"
+  },
+
+  // Profit & Loss
+  {
+    question: "CP = 250, SP = 300. Profit% = ?",
+    options: ["20%", "25%", "15%", "30%"],
+    answer: "20%"
+  },
+  {
+    question: "CP = 500, SP = 450. Loss% = ?",
+    options: ["10%", "15%", "12%", "8%"],
+    answer: "10%"
+  },
+  {
+    question: "Item marked 1200, discount 10%. Selling price = ?",
+    options: ["1080", "1100", "1150", "1050"],
+    answer: "1080"
+  },
+
+  // Averages & Ratios
+  {
+    question: "Average of 12, 15, 18?",
+    options: ["15", "14", "16", "13"],
+    answer: "15"
+  },
+  {
+    question: "Ratio of 18 : 24 simplified?",
+    options: ["3:4", "4:3", "2:3", "3:5"],
+    answer: "3:4"
+  },
+  {
+    question: "Weighted average of 2, 3, 4 with weights 1, 2, 3?",
+    options: ["3.33", "3", "2.5", "3.5"],
+    answer: "3.33"
   },
 
   // Probability
   {
-    question: "Probability of getting 'Heads' in coin toss?",
+    question: "Probability of getting 'Tails' in a coin?",
     options: ["0", "0.5", "1", "2"],
     answer: "0.5"
   },
   {
-    question: "Probability of rolling 3 on a dice?",
-    options: ["1/6", "1/4", "1/2", "1/3"],
-    answer: "1/6"
+    question: "Probability of rolling even number on dice?",
+    options: ["1/2", "1/3", "1/6", "2/3"],
+    answer: "1/2"
   },
   {
-    question: "Total outcomes of tossing 2 coins?",
-    options: ["4", "2", "6", "3"],
-    answer: "4"
-  },
-
-  // Linear Equations
-  {
-    question: "Solve: x + 7 = 14",
-    options: ["5", "6", "7", "8"],
-    answer: "7"
-  },
-  {
-    question: "3x = 15. x = ?",
-    options: ["5", "4", "3", "6"],
-    answer: "5"
-  },
-  {
-    question: "x - 4 = 10. x = ?",
-    options: ["14", "6", "8", "12"],
-    answer: "14"
-  },
-  {
-    question: "If x = 2, then value of 2x² + 3x = ?",
-    options: ["10", "14", "16", "18"],
-    answer: "14"
+    question: "Two coins tossed. Probability both heads?",
+    options: ["1/4", "1/2", "1/3", "1"],
+    answer: "1/4"
   }
 ];
+
+
 
 let currentQuestion = 0;
 let score = 0;
@@ -221,6 +209,11 @@ prevBtn.addEventListener("click",()=>{
 })
 
 loadQuestion();
+
+
+
+
+
 
 
 
